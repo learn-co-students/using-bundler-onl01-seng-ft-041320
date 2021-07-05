@@ -1,4 +1,4 @@
-# Using Bundler Code-Along
+ # Using Bundler Code-Along
 
 ## Objectives
 
