@@ -347,14 +347,14 @@ returns false. However...
 - [require_relative][require_relative] takes a relative path that is relative to
   the file in which the require statement is called (so it's relative to the
   file being run, not to the directory from which the code is being called).
-  
+
   *Top Tip: Use SSH syntax for the AwesomePrint Gem.*
 
 ## Resources
 
-- [RailsCasts](http://railscasts.com/) 
+- [RailsCasts](http://railscasts.com/)
 - [#201 Bundler (revised)](http://railscasts.com/episodes/201-bundler-revised)
-- [Bundler Docs](http://bundler.io/docs.html) 
+- [Bundler Docs](http://bundler.io/docs.html)
 - [Bundler with Sinatra](http://bundler.io/v1.16/guides/sinatra.html)
 - [ActionMailer](https://guides.rubyonrails.org/action_mailer_basics.html)
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/using-bundler' title='Gems and Bundler'>Gems and Bundler</a> on Learn.co and start learning to code for free.</p>
