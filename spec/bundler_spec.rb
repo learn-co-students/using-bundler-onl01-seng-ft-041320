@@ -53,7 +53,7 @@ describe "Bundler" do
         expect(@bundle_output =~ /pry/).not_to eq(nil)
 
         bundle_output_without_development = ""
-        Bundler.with_clean_env do
+        Bundler.with_unbundled_env do
           bundle_output_without_development = `bundle --without development`
         end
         expect(bundle_output_without_development =~ /pry/).to eq(nil)
